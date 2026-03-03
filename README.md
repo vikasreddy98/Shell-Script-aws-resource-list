@@ -1,4 +1,4 @@
-# Shell-Script-aws-resource-list
+# shell-script-aws-resource-list
 This Script will list the Resources in a given AWS account.
 
 ## Pre-requisites
@@ -21,7 +21,9 @@ sudo ./aws/install
 ```
 
 **Confirm Installation** 
-`aws --version`
+```
+aws --version
+```
 
 ### Configure AWS Account
 ```
@@ -35,11 +37,11 @@ aws configure
 
 ## Usage
 ```
-git clone https://github.com/vikasreddy98/Shell-Script-aws-resource-list.git
+git clone https://github.com/vikasreddy98/shell-script-aws-resource-list.git
 cd Shell-Script-aws-resource-list
-chmod a+x aws-resource-list.sh
+chmod +x aws-resource-list.sh
 ```
 **Run the script**
 ```
-./aws-resource-list <region> <service_name>
+./aws-resource-list.sh <region> <service_name>
 ```
